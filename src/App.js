@@ -2,7 +2,7 @@ import { Routes, Route, Link } from "react-router-dom";
 import "./assets/main.css";
 import Home from "./components/Home";
 import Work from "./components/Work";
-import Resume from "./components/Resume";
+
 import "./App.css";
 import resume from "./Resume.pdf";
 
@@ -31,7 +31,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/work" element={<Work />} />
-        <Route path="/resume" element={<Resume />} />
       </Routes>
     </div>
   );
