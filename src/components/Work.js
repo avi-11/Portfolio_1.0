@@ -26,7 +26,7 @@ const Work = () => {
         </Link>
         
       </div>
-      <h3 className="mt-12 mb-6 font-medium">Projects</h3>
+      <h3 className="mt-12 mb-6 font-bold text-lg color-blue-400">Projects</h3>
       <div className="flex flex-col space-y-4">
         <div className="flex flex-col">
           <div className="flex justify-between items-center">
@@ -51,22 +51,20 @@ const Work = () => {
             href="https://quiz-app-jet.vercel.app/"
           >
             <i class="fa-solid fa-link"></i>
-            <span className="opacity-60">Quiz-App.vecel.app</span>
+            <span className="opacity-60">wordle-black-six.vercel</span>
           </a>
         </div>
         <div className="flex flex-col">
           <div className="flex justify-between items-center">
-            <span>Nasa Space Quiz</span>
+            <span>Wordle</span>
             <span>🚀</span>
           </div>
           <a
             className="flex gap-x-2 items-center mt-0.5"
-            href="https://avi-11.github.io/Nasa_Hackathon_SpaceQuest/gameH.html"
+            href="https://wordle-black-six.vercel.app/"
           >
             <i class="fa-solid fa-link"></i>
-            <span className="opacity-60">
-              Nasa_Hackathon_SpaceQuest.github.io
-            </span>
+            <span className="opacity-60">Quiz-App.vecel.app</span>
           </a>
         </div>
         <div className="flex flex-col">
