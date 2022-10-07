@@ -25,7 +25,7 @@ function App() {
             <button className="py-1 px-3 cursor-pointer">
               <Link to="/work">Work</Link>
             </button>
-            <i onClick={(e)=>setDark(!dark)} class="py-1 px-3 cursor-pointer fa-solid fa-moon"></i>
+            {dark?<i onClick={(e)=>setDark(!dark)} class="py-1 px-3 cursor-pointer fa-solid fa-sun hover:scale:50"></i>:<i onClick={(e)=>setDark(!dark)} class="py-1 px-3 cursor-pointer fa-solid fa-moon hover:scale-50"></i>}
           </div>
         </nav>
       </header>
