@@ -12,17 +12,18 @@ function App() {
   return (
     <div>
       <header className={dark?"text-white py-5 bg-black px-4 rounded-lg m-2":"px-4 rounded-lg m-2 bg-white py-5"}>
-        <nav className="flex justify-between items-center">
-          <Link to="/" className="font-extrabold text-lg tracking-wider">
-            Av.11
+        <nav className="flex justify-between items-center mb-4">
+          <Link to="/" className="font-extrabold text-lg tracking-wider bg-blue rounded-lg text-lg p-2">
+            Avi-11
           </Link>
           <div className="flex items-center font-semibold gap-x-1">
-            <button className="py-1 px-3 cursor-pointer">
+            <button className="py-1 px-3 cursor-pointer font-bold">
               <a target="_blank" rel="noreferrer" href={resume}>
                 Resume
               </a>
             </button>
-            <button className="py-1 px-3 cursor-pointer">
+            <button className="py-1 px-3 cursor-pointer font-bold
+            ">
               <Link to="/work">Work</Link>
             </button>
             {dark?<i onClick={(e)=>setDark(!dark)} class="py-1 px-3 cursor-pointer fa-solid fa-sun hover:scale:50"></i>:<i onClick={(e)=>setDark(!dark)} class="py-1 px-3 cursor-pointer fa-solid fa-moon hover:scale-50"></i>}
