@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 const Work = () => {
   return (
     <div>
-      <h3 className="mb-6">Experience</h3>
-      <div className="flex flex-col space-y-4">
+      <h3 className="mb-6 font-bold color-blue text-xl">Experience</h3>
+      <div className="flex flex-col space-y-4 bg-white p-4 rounded-xl">
         <Link className="space-x-4 flex items-center font-medium" to="/">
           <span className="flex-none">DSC KIET</span>
           <span className="flex-shrink w-full border-t border-dashed border-zinc-400"></span>
