@@ -25,15 +25,15 @@ const Home = () => {
       <br />
       <div className="flex -ml-2 justify-between">
         <div className="flex gap-x-1">
-          <Link to="/" className="p-2">
+          <a  href ="https://twitter.com/" className="p-2 hover:scale-50">
             <i class="fa-brands fa-twitter"></i>
-          </Link>
-          <Link to="/" className="p-2">
+          </a>
+          <a href="https://github.com/avi-11" className="p-2 hover:scale-50">
             <i class="fa-brands fa-github"></i>
-          </Link>
-          <Link to="/" className="p-2">
+          </a>
+          <a href="https://www.linkedin.com" className="p-2 hover:scale-50">
             <i class="fa-brands fa-linkedin-in"></i>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
