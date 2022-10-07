@@ -6,6 +6,12 @@ const Work = () => {
     <div>
       <h3 className="mb-6 font-bold color-blue text-xl">Experience</h3>
       <div className="flex flex-col space-y-4 bg-white p-4 rounded-xl">
+      <Link className="space-x-4 flex items-center font-medium" to="/">
+          <span className="flex-none">DSC KIET</span>
+          <span className="flex-shrink w-full border-t border-dashed border-zinc-400"></span>
+          <span className="flex-none opacity-90">Web Lead</span>
+          <span className="flex-none opacity-50 font-normal">Jul '22</span>
+        </Link>
         <Link className="space-x-4 flex items-center font-medium" to="/">
           <span className="flex-none">DSC KIET</span>
           <span className="flex-shrink w-full border-t border-dashed border-zinc-400"></span>
@@ -18,12 +24,7 @@ const Work = () => {
           <span className="flex-none opacity-90">UI/UX designer</span>
           <span className="flex-none opacity-50 font-normal">Aug '21</span>
         </Link>
-        <Link className="space-x-4 flex items-center font-medium" to="/">
-          <span className="flex-none">DSC KIET</span>
-          <span className="flex-shrink w-full border-t border-dashed border-zinc-400"></span>
-          <span className="flex-none opacity-90">Frontend Dev</span>
-          <span className="flex-none opacity-50 font-normal">May '21</span>
-        </Link>
+        
       </div>
       <h3 className="mt-12 mb-6 font-medium">Projects</h3>
       <div className="flex flex-col space-y-4">
