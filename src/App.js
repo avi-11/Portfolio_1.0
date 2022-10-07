@@ -10,8 +10,8 @@ import { useState } from "react";
 function App() {
   const [dark,setDark]=useState(false);
   return (
-    <div className={dark?"bg-black h-screen":"bg-white h-screen"}>
-      <header className={dark?"text-white py-5":"py-5"}>
+    <div>
+      <header className={dark?"text-white py-5 bg-black px-4 rounded-lg m-2":"px-4 rounded-lg m-2 bg-white py-5"}>
         <nav className="flex justify-between items-center">
           <Link to="/" className="font-extrabold text-lg tracking-wider">
             Av.11
