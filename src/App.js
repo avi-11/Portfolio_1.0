@@ -9,11 +9,12 @@ import { useState } from "react";
 
 function App() {
   const [dark,setDark]=useState(false);
+  const [view,setView]=useState(false)
   return (
     <div>
-      <header className={dark?"text-white py-5 bg-black px-4 rounded-lg m-2":"px-4 rounded-lg m-2 bg-white py-5"}>
+      <header className={dark?"text-white py-5 bg-blue-700 px-4 rounded-lg m-2":"px-4 rounded-lg m-2 bg-white py-5"}>
         <nav className="flex justify-between items-center mb-4">
-          <Link to="/" className="font-extrabold text-lg tracking-wider bg-blue rounded-lg text-lg p-2">
+          <Link to="/" className="font-bold text-lg tracking-wider bg-blue rounded-lg text-lg p-2">
             Avi-11
           </Link>
           <div className="flex items-center font-semibold gap-x-1">
